@@ -6,11 +6,13 @@ from datetime import datetime, timedelta
 import requests
 import time
 import sys
+from dotenv import load_dotenv
 
 sys.stdout.reconfigure(encoding='utf-8')
+load_dotenv()
 
-ALPACA_API_KEY = "PK2S7TD0TZPID9IIJN1M"
-ALPACA_SECRET_KEY = "bZ5nbv8AMOf8eEwH8pfyqpv96LVmFyJAJFADqcII"
+ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
+ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
 ALPACA_BASE_URL = "https://data.alpaca.markets/v1beta1"
 ALPACA_ASSET_URL = "https://paper-api.alpaca.markets/v2/assets"
 
