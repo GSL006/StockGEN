@@ -267,7 +267,7 @@ def predict():
         output_ids_recommendation = peft_model_recommendation.generate(
             **inputs_recommendation,
             max_length=8,
-            temperature=0.7,
+            temperature=1,
             top_p=0.9,
             do_sample=True
         )
