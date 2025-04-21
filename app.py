@@ -34,7 +34,7 @@ if st.button("🚀 Predict Now"):
             with col1:
                 st.metric("📅 Data Till", result["next_date"])
                 st.metric("💼 Ticker", result["ticker"])
-                st.metric(f"📉 Predicted Close (after {result["next_date"]})", f"${result['predicted_close']:.2f}")
+                st.metric(f"📉 Predicted Close (after {result['next_date']})", f"${result['predicted_close']:.2f}")
 
             with col2:
                 st.metric("📊 Trend", result["predicted_trend"])

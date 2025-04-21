@@ -10,8 +10,8 @@ from dataset_app import fetch_historical_data, fetch_alpaca_news, merge_price_an
 import os
 import torch.nn.functional as F
 
-stock = ["AAPL"]
-start_date = "2025-02-16"
+stock = ["CTSH"]
+start_date = "2024-04-16"
 end_date = "2025-04-16"
 
 # Step 1: Fetch historical price data
