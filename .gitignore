@@ -1,5 +1,6 @@
 stock_data.csv
 sentiment_data_news.csv
 predicted_next_day_price.csv
+sentiment_data_news_with_volatility.csv
 .env
 **/__pycache__/
