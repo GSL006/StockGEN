@@ -152,6 +152,7 @@ def predict():
     ticker = df['Ticker'].iloc[0]
     
     df["Volatility"] = df.apply(compute_volatility, axis=1)
+    df.to_csv("sentiment_data_news_with_volatility.csv", index=False)
 
     # Scale the Close column before lagging
     df["Close"] = scaler.transform(df[["Close"]])
