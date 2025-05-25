@@ -1,4 +1,4 @@
-﻿# StockGEN: Smarter Stock Forecasting with Sentiment Analysis 📈
+﻿# StockGEN: Smarter Stock Forecasting 📈
 
 StockGEN is a stock prediction application that utilizes historical stock prices, sentiment analysis, and volatility metrics to forecast stock trends and provide investment recommendations.
 
