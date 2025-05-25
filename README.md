@@ -63,15 +63,3 @@ StockGEN is a stock prediction application that utilizes historical stock prices
    - Recommendation (Buy/Sell/Hold)
 
 The prediction is based on historical stock data and sentiment analysis from news sources.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### **End of README**
-
----
